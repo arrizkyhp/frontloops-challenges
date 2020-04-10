@@ -15,3 +15,5 @@ You can find below the lives versions of my solutions :
 Step 1 : [Pricing Table](https://zathio.github.io/frontloops-challenges/loop1-step1/)
 
 Step 2 : [Payement Form](https://zathio.github.io/frontloops-challenges/loop1-step2/)
+
+Step 3 : [Payement Confirmation Screen](https://zathio.github.io/frontloops-challenges/loop1-step3/)
