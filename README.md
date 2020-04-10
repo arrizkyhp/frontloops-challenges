@@ -18,6 +18,7 @@ You can find below the live versions of my solutions :
 
 - Step 3 : [Payement Confirmation Screen](https://zathio.github.io/frontloops-challenges/markup-challenges/loop1-step3/)
 
+
 ## Elements Challenges
 
 Theses are **interactive widgets** challenges, it is more based on **Javascript**.
