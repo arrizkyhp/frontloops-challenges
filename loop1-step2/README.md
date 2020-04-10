@@ -1,6 +1,6 @@
 # Frontloops Challenges (Markup)
 
-Loop 1 Step 2 : Payement Method form
+Loop 1 Step 2 : Payement Method Form
 
 ![preview image](./design/preview.png "Click below for live version")
 
