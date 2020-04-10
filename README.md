@@ -8,9 +8,9 @@ For more informations check [Frontloops website](https://frontloops.io/)
 
 Theses are **web interface challenges**, it is more based on **HTML** and **CSS**.
 
-You can find below the lives versions of my solutions :
+You can find below the live versions of my solutions :
 
-### Loop 1
+### Loop 1 :
 
 - Step 1 : [Pricing Table](https://zathio.github.io/frontloops-challenges/markup-challenges/loop1-step1/)
 
@@ -24,6 +24,6 @@ Theses are **interactive widgets** challenges, it is more based on **Javascript*
 
 You can find below the lives versions of my solutions :
 
-### Loop 1
+### Loop 1 :
 
 - Step 1 :
