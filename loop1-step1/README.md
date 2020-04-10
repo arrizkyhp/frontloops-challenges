@@ -1,6 +1,6 @@
 # Frontloops Challenges (Markup)
 
-Loop 1 Step 1 : Pricing Table
+Loop 1 Step 1 : Pricing table
 
 ![preview image](./design/preview.png "Click below for live version")
 
