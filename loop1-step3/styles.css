@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #16A085;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card__container {
+    background: #fff url(img/bicycle.png);
+    background-size: 96%;
+    background-repeat: no-repeat;
+    background-position: center 180px;
+    border-radius: 5px;
+    box-shadow: 7px 7px 25px rgba(0,0,0,0.25);
+    padding: 45px 60px 165px 60px;
+}
+
+.card__header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.card__header h2 {
+    font-size: 1.4em;
+}
+
+.profile__container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    top: -1px;
+}
+
+.card__header img {
+    background: #fff;
+    padding: 8px;
+    right: 0;
+    border-radius: 50%;
+    position: absolute;
+    border: 1px solid #ccc;
+    transition: .2s;
+}
+
+.border__hover {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ededed;
+    position: absolute;
+    right: 1px;
+    transition: .2s;
+}
+
+.profile__container:hover .border__hover {
+    transform: scale(1.3);
+}
+
+small {
+    display: inline-block;
+    color: #aaa;
+    font-weight: 500;
+    padding-right: 8px;
+    margin-bottom: 1.5em;
+}
+
+.order__infos {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75em 0;
+}
+
+.order__item {
+    font-size: 15px;
+    color: #555;
+}
+
+.item__bold {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.price {
+    position: relative;
+    top: -1px;
+}
+
+@media screen and (max-width: 620px) {
+    .card__container {
+        padding: 45px 40px 125px 40px; ;
+        background-position: center 250px;
+        width: 80%;
+    }
+    
+    small {
+        padding-right: 0;
+
+    }
+
+    .profile__container {
+        cursor: initial;
+    }
+
+    .border__hover {
+        display: none;
+    }
+}
+
+
+
