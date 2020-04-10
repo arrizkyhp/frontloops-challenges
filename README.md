@@ -16,8 +16,7 @@ You can find below the live versions of my solutions :
 
 - Step 2 : [Payement Form](https://zathio.github.io/frontloops-challenges/markup-challenges/loop1-step2/)
 
-- Step 3 : [Payement Confirmation Screen](https://zathio.github.io/frontloops-challenges/markup-challenges/loop1-step3/)
-
+- Step 3 : [Payement Confirmation Screen](https://zathio.github.io/frontloops-challenges/markup-challenges/loop1-step3/)  
 
 ## Elements Challenges
 
