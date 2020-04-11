@@ -26,4 +26,4 @@ You can find below the lives versions of my solutions :
 
 ### Loop 1 :
 
-- Step 1 : [Segmented Control / Select](https://zathio.github.io/frontloops-challenges/elements-challenges/loop1-step1/)
+- Step 1 :
