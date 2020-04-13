@@ -29,3 +29,5 @@ You can find below the lives versions of my solutions :
 - Step 1 : [Segmented Control / Select](https://zathio.github.io/frontloops-challenges/elements-challenges/loop1-step1/)
 
 - Step 2 : [Tab Switcher](https://zathio.github.io/frontloops-challenges/elements-challenges/loop1-step2/)
+
+- Step 3 : [Random Toggle Switches](https://zathio.github.io/frontloops-challenges/elements-challenges/loop1-step3/)
