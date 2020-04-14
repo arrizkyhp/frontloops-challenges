@@ -8,15 +8,17 @@ For more informations check [Frontloops website](https://frontloops.io/)
 
 Theses are **web interface challenges**, it is more based on **HTML** and **CSS**.
 
-You can find below the live versions of my solutions :
+You can find below my solutions :
 
 ### Loop 1 :
 
-- Step 1 : [Pricing Table](https://zathio.github.io/frontloops-challenges/markup-challenges/loop1-step1/)
+- Step 1 : [Pricing Table](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop1-step1)
 
-- Step 2 : [Payement Form](https://zathio.github.io/frontloops-challenges/markup-challenges/loop1-step2/)
+- Step 2 : [Payement Form](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop1-step2)
 
-- Step 3 : [Payement Confirmation Screen](https://zathio.github.io/frontloops-challenges/markup-challenges/loop1-step3/)
+- Step 3 : [Payement Confirmation Screen](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop1-step3)
+
+- Step 4 : [Message Box](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop1-step4)
 
 ## Elements Challenges
 
@@ -26,8 +28,8 @@ You can find below the lives versions of my solutions :
 
 ### Loop 1 :
 
-- Step 1 : [Segmented Control / Select](https://zathio.github.io/frontloops-challenges/elements-challenges/loop1-step1/)
+- Step 1 : [Segmented Control / Select](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop1-step1)
 
-- Step 2 : [Tab Switcher](https://zathio.github.io/frontloops-challenges/elements-challenges/loop1-step2/)
+- Step 2 : [Tab Switcher](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop1-step2)
 
-- Step 3 : [Random Toggle Switches](https://zathio.github.io/frontloops-challenges/elements-challenges/loop1-step3/)
+- Step 3 : [Random Toggle Switches](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop1-step3)
