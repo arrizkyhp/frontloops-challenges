@@ -81,6 +81,8 @@ body {
     padding-bottom: 0;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: 600px;
 }
 
 .date-separation {
@@ -204,8 +206,13 @@ input[type="submit"] {
 }
 
 @media screen and (max-width: 510px) {
+    body {
+        background: #fff;
+        align-items: flex-start;
+    }
+
     .container {
-        height: 100vh;
+        height: 90vh;
     }
 
     .msg-section {
@@ -213,5 +220,13 @@ input[type="submit"] {
         flex-direction: column;
         justify-content: space-between;
         height: 90%;
+    }
+
+    .date-separation::before {
+        width: 39%;
+    }
+    
+    .date-separation::after {
+        width: 39%;
     }
 }
