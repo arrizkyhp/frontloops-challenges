@@ -35,3 +35,5 @@ You can find below the lives versions of my solutions :
 - Step 2 : [Tab Switcher](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop1-step2)
 
 - Step 3 : [Random Toggle Switches](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop1-step3)
+
+- Step 4 : [Multi Step Form](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop1-step4)
