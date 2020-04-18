@@ -1,6 +1,6 @@
 # Frontloops Challenges (Markup)
 
-Loop 1 Step 5 : Sign-up Form
+Loop 1 Step 6 : Sign-up Form
 
 ![preview image](./design/preview.png "Click below for live version")
 
