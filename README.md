@@ -22,6 +22,8 @@ You can find below my solutions :
 
 - Step 5 : [Boarding Pass](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop1-step5)
 
+- Step 6 : [Sign-up Form](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop1-step6)
+
 ## Elements Challenges
 
 Theses are **interactive widgets** challenges, it is more based on **Javascript**.
