@@ -41,3 +41,5 @@ You can find below the lives versions of my solutions :
 - Step 4 : [Multi Step Form](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop1-step4)
 
 - Step 5 : [Typewriter Effect](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop1-step5)
+
+- Step 6 : [3D Tilt Hover Effect](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop1-step6)
