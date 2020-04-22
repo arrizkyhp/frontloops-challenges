@@ -2,8 +2,6 @@ const card = document.getElementById("card");
 const browserWidth = document.documentElement.clientWidth;
 const browserHeight = document.documentElement.clientHeight;
 
-const test = document.getElementById("test");
-
 var y = 0;
 var x = 0;
 
