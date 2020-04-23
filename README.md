@@ -24,6 +24,8 @@ You can find below my solutions :
 
 - Step 6 : [Sign-up Form](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop1-step6)
 
+- Step 7 : [Blog Post](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop1-step7)
+
 ## Elements Challenges
 
 Theses are **interactive widgets** challenges, it is more based on **Javascript**.
