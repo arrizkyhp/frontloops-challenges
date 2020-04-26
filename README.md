@@ -26,6 +26,8 @@ You can find below my solutions :
 
 - Step 7 : [Blog Post](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop1-step7)
 
+- Step 8 : [Travel Article](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop1-step8)
+
 ## Elements Challenges
 
 Theses are **interactive widgets** challenges, it is more based on **Javascript**.

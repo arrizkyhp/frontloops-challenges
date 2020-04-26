@@ -1,0 +1,266 @@
+/* RULES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h4 {
+    font-family: 'Playfair Display';
+}
+
+a {
+    text-decoration: none;
+    color: #aaa;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.8em;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background: #F8EBE9;
+}
+
+/* CONTENT */
+
+/* NAV */
+
+.container {
+    background: url(img/background.jpg) #fff;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+    box-shadow: 0 20px 30px rgba(213, 161, 146, 0.9);
+    padding: 0 33px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+}
+
+.back {
+    position: relative;
+    top: 0.1em;
+    margin-left: 1.55em;
+    color: #444;
+    opacity: .6;
+    font-weight: 600;
+}
+
+.back::before {
+    content: url(img/arrow-back.svg);
+    position: absolute;
+    top: -0.405em;
+    left: -2em;
+    opacity: .7;
+    transform: scale(.65);
+    transition: opacity .1s;
+}
+
+nav a {
+    margin: 2.4em 1.1em;
+    transition: .1s;
+}
+
+.spain {
+    color: #222;
+}
+
+.france {
+    padding-right: 0;
+}
+
+/* MAIN */
+
+h1 {
+    font-size: 3.3em;
+    font-weight: 500;
+    width: 400px;
+    line-height: 1.11em;
+    position: relative;
+}
+
+h1::after {
+    content: '';
+    position: absolute;
+    right: 18px;
+    bottom: .39em;
+    width: 1.6em;
+    height: .064em;
+    background: #000;
+}
+
+h4 {
+    font-weight: 500;
+    margin: 1.7em 0 2.1em 0;
+}
+
+.main-content {
+    margin: 60px 25px 110px 385px;
+}
+
+.main-photos-text {
+    display: flex;
+}
+
+.image {
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 3px;
+}
+
+.image img:first-child {
+    width: 160px;
+}
+
+.image img:last-child {
+    width: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255,255,255,.78);
+    padding: 7px;
+    border-radius: 50%;
+    transition: .1s;
+}
+
+.photos a {
+    color: #444;
+    font-size: .75em;
+    font-weight: 600;
+    position: relative;
+}
+
+.photos a::after {
+    content: url(img/arrow-forward.svg);
+    position: absolute;
+    top: -0.47em;
+    right: -2em;
+    transform: scale(.6);
+    opacity: .9;
+}
+
+.text {
+    width: 250px;
+    line-height: 1.7em;
+    margin: -3px 0 0 2.45em;
+}
+
+/* HOVER EFFECTS ONLY ON DESKTOP */
+
+@media (hover: hover) {
+    .back:hover {
+        opacity: 1;
+    }
+    
+    .back:hover::before {
+        opacity: 1;
+    }
+    
+    nav a:hover {
+        color: #222;
+    }
+
+    .image:hover img:last-child {
+        background: rgba(255,255,255,1);
+    } 
+}
+
+/* PHONE AND TABLET */ 
+
+@media screen and (max-width: 900px) {
+    body {
+        background: none;
+    }
+
+    .container {
+        background: #fff;
+        min-height: 100vh;
+        width: 100%;
+        box-shadow: none;
+    }
+
+    nav a {
+        margin: 3em 1.1em;
+        font-size: .7em;
+    }
+
+    .back {
+        color: #aaa;
+        opacity: 1;
+        font-weight: 500;
+    }
+
+    .back::before {
+        opacity: .5;
+        top: -0.56em;
+        transform: scale(.55);
+    }
+
+    h1 {
+        width: 290px;
+    }
+
+    h1::after {
+        left: 0;
+        bottom: -.6em;
+    }
+
+    h4 {
+       margin-top: 3.2em; 
+    }
+
+    .main-content {
+        margin: 1.5em 0 0 0;
+    }
+
+    .main-photos-text {
+        flex-direction: column-reverse;
+        position: relative;
+    }
+
+    .image {
+        display: flex;
+        justify-content: center;
+        max-width: 400px;
+        margin-bottom: 10px;
+    }
+
+    .image img:first-child {
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .photos {
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+
+    .photos a {
+        left: 3px;
+    }
+
+    .text {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+}
+
