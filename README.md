@@ -49,3 +49,5 @@ You can find below the lives versions of my solutions :
 - Step 6 : [3D Tilt Hover Effect](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop1-step6)
 
 - Step 7 : [Show On Scroll](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop1-step7)
+
+- Step 8 : [Side Menu](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop1-step8)
