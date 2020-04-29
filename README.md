@@ -28,6 +28,8 @@ You can find below my solutions :
 
 - Step 8 : [Travel Article](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop1-step8)
 
+- Step 9 : [Online Wallet](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop1-step9)
+
 ## Elements Challenges
 
 Theses are **interactive widgets** challenges, it is more based on **Javascript**.

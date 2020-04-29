@@ -1,0 +1,286 @@
+/* RULES */
+
+:root {
+    --main-font-color: #222;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-weight: 400;
+    color: var(--main-font-color);
+}
+
+small {
+    font-size: .95em;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom-bar::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* MAIN */
+
+body {
+    background: #F4C66A;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border-radius: 3px;
+    box-shadow: 4px 4px 20px rgba(0,0,0,0.15);
+    display: flex;
+    width: 950px; 
+    height: 525px;
+    overflow: hidden;
+}
+
+/* WALLET SIDE */
+
+.wallets-container {
+    overflow-y: scroll;
+    background: #F0F0F0;
+    padding: 3em 2.6em 0 2.6em;
+}
+
+.wallets-container .title {
+    margin-bottom: 3em;
+}
+
+.title img {
+    cursor: pointer;
+    opacity: .7;
+    transition: .1s;
+}
+
+.title img:hover {
+    opacity: 1;
+}
+
+.wallet-card {
+    background: #fff;
+    border: 2px solid #DCDCDC;
+    border-radius: 5px;
+    padding: 1px .8em .8em .8em;
+    margin: 2em 0;
+    cursor: pointer;
+    transition: .1s;
+    min-width: 265px;
+    width: 265px;
+    position: relative;
+}
+
+
+.wallet-card::after {
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: 3px solid rgb(125, 133, 175);
+    opacity: 0;
+    transition: .1s;
+}
+
+.wallet-card:last-child::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: calc(100% + 2.6em);
+    height: 1px;
+}
+
+.wallet-card.selected::after, .wallet-card:hover::after {
+    opacity: 1;
+}
+
+.wallet-card img {
+    width: 70px;
+    margin: 11px 0;
+}
+
+.wallet-card p {
+    font-size: 1.14em;
+    font-weight: 500;
+    color: #666;
+    margin-bottom: 3px;
+}
+
+.wallet-card strong {
+    font-weight: 700;
+}
+
+.wallet-card small {
+    font-weight: 500;
+    color: #666;
+}
+
+/* BALANCE SIDE */
+
+.balance-container {
+    background: #fff;
+    padding: 3em 2.6em 1em 2.6em;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+.balance-container .title {
+    border-bottom: 2px solid rgb(214, 214, 214);
+    padding-bottom: 2.55em;
+    margin-bottom: 2em;
+}
+
+.balance-container .title h1 {
+    position: relative;
+    top: -6px;
+    color: var(--main-font-color);
+}
+
+.balance-container .title sup {
+    font-size: .6em;
+}
+
+.activity-container {
+    width: 100%;
+    margin-top: 3.3em;
+}
+
+.activity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2.4em 0;
+}
+
+.same-side {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.minus-icon {
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    min-width: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2em;
+}
+
+.minus-icon img {
+    width: 13px;
+}
+
+.activity-infos {
+    display: flex;
+    flex-direction: column;
+}
+
+.activity-infos strong {
+    color: var(--main-font-color);
+    font-size: 1.25em;
+    margin-bottom: 5px;
+}
+
+.activity-infos small {
+    font-size: .9em;
+    color: #888;
+    font-weight: 400;
+}
+
+.cost {
+    font-size: 1.1em;
+    font-weight: 700;
+    color: rgb(127, 142, 187);
+}
+
+.cost sup {
+    font-size: .65em;
+}
+
+.cost.plus {
+    color: rgb(118, 212, 64);
+}
+
+/* PHONE */
+
+@media screen and (max-width: 950px) {
+    body {
+        background: none;
+    }
+
+    .container {
+        box-shadow: none;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .wallets-container {
+        padding: 3em 0 0 0;
+        overflow-y: hidden;
+    }
+
+    .wallets-container .title {
+        margin-bottom: 0;
+        padding: 0 2.6em;
+    }
+
+    .wallets-cards-container {
+        display: flex;
+        overflow-x: auto;
+        padding-left: 1.9em;
+    }
+    
+    .wallet-card {
+        margin: 2em .7em;
+    }
+
+    .balance-container {
+        overflow: visible;
+        flex-grow: 0;
+    }
+
+    .same-side {
+        margin-right: 2em;
+    }
+
+    .balance-container .title h2 {
+        font-size: 1.3em;
+    }
+
+    .balance-container .title h1 {
+        font-size: 1.5em;
+        top: -1px;
+    }
+
+    .activity-infos strong {
+        font-size: .95em;
+    }
+
+    .activity-infos small {
+        font-size: .75em;
+    }
+} 
