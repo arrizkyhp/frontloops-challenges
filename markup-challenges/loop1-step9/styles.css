@@ -109,7 +109,7 @@ body {
     height: 1px;
 }
 
-.wallet-card.selected::after, .wallet-card:hover::after {
+.wallet-card.selected::after {
     opacity: 1;
 }
 
@@ -224,6 +224,14 @@ body {
     color: rgb(118, 212, 64);
 }
 
+/* HOVER EFFECT ONLY ON DESKTOP VERSION */
+
+@media screen and (min-width: 951px) {
+    .wallet-card:hover::after {
+        opacity: 1;
+    }
+}
+
 /* PHONE */
 
 @media screen and (max-width: 950px) {
@@ -284,3 +292,4 @@ body {
         font-size: .75em;
     }
 } 
+
