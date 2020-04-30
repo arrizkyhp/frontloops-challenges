@@ -55,3 +55,5 @@ You can find below the lives versions of my solutions :
 - Step 8 : [Side Menu](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop1-step8/README.md)
 
 - Step 9 : [Sticky Element With Javascript](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop1-step9/README.md)
+
+- Step 10 : [Draggable Card](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop1-step10/README.md)
