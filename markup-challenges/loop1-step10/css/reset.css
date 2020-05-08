@@ -1,0 +1,55 @@
+/* RULES */
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 17px;
+    scroll-behavior: smooth;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section-container a {
+    text-transform: uppercase;
+}
+
+strong {
+    text-transform: uppercase;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1220px;
+    padding: 0 1.5rem;
+}
+
+::-moz-placeholder {
+    opacity: 1;
+}
+
+/* COLORS */
+
+:root {
+    --btn-color: #EA625C;
+    --btn-hover: #D44F4C;
+    --title-black: #2A2A2A;
+    --p-gray: #888;
+    --border-gray: #E2E1E1;
+    --white: #fff;
+}

@@ -1,0 +1,151 @@
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 0;
+}
+
+header img {
+    width: 30px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin: 0 1.1rem;
+}
+
+nav li * {
+    transition: .15s;
+}
+
+nav a {
+    color: var(--p-gray);
+    padding-bottom: 12px;
+    border-bottom: 3px solid transparent;
+}
+
+nav a:hover {
+    color: var(--title-black);
+    border-bottom-color: var(--p-gray);
+}
+
+input {
+    font-size: 1rem;
+    border: none;
+    border-bottom: 2px solid #bbb;
+    padding-bottom: 5px;
+    outline: none;
+    color: #000;
+    font-weight: 500;
+    width: 10.5rem;
+    margin-left: .55rem;
+    background: none;
+}
+
+input:focus {
+    border-bottom-color: #666;
+}
+
+input::placeholder {
+    color: var(--p-gray);
+    font-weight: 400;
+}
+
+/* SECTION CONTAINER */
+
+.section-container {
+    width: 510px;
+}
+
+.section-container h1 {
+    font-size: 2.6rem;
+    color: var(--title-black);
+}
+
+.section-container p {
+    padding-left: 2rem;
+    border-left: 3px solid var(--p-gray) ;
+    line-height: 1.5rem;
+    color: var(--p-gray);
+    margin: 3rem 0 4rem 0;
+}
+
+.section-container a {
+    color: #fff;
+    font-weight: 500;
+    background: var(--btn-color);
+    padding: 1rem 1.7rem;
+    transition: .15s;
+}
+
+.section-container a:hover {
+    background: var(--btn-hover);
+}
+
+/* BOXES */
+
+.boxes-ctn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.box {
+    width: 325px;
+    color: var(--title-black);
+}
+
+.box strong {
+    font-size: 1.08rem;
+}
+
+.box p {
+    margin: 2.2rem 0 1rem 0;
+    line-height: 1.7rem;
+}
+
+.dots {
+    display: flex;
+}
+
+.dot {
+    background: #ccc;
+    height: 5px;
+    width: 5px;
+    margin-right: 14px;
+}
+
+.box a {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .85rem;
+    color: var(--btn-color);
+    position: relative;
+    padding-left: 2.95rem;
+    transition: .15s
+}
+
+.box a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 2.1rem;
+    height: 2px;
+    background: var(--btn-color);
+    transition: .15s;
+}
+
+.box a:hover {
+    padding-left: 3.8rem;
+}
+
+.box a:hover::before {
+    width: 2.95rem;
+}

@@ -30,6 +30,8 @@ You can find below my solutions :
 
 - Step 9 : [Online Wallet](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop1-step9/README.md)
 
+- Step 10 : [Apple Watch Landing Page](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop1-step10/README.md)
+
 ## Elements Challenges
 
 Theses are **interactive widgets** challenges, it is more based on **Javascript**.
