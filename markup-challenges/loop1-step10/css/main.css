@@ -15,7 +15,7 @@ body {
 
 #top-section {
     min-height: 100vh;
-    background: url(/img/watches.jpg) no-repeat;
+    background: url(../img/watches.jpg) no-repeat;
     background-position: bottom right -330px;
     background-size: 88vh;
     border-bottom: 2px solid var(--border-gray);
@@ -47,7 +47,7 @@ body {
 /* BOTTOM SECTION */
 
 #bottom-section {
-    background: url(/img/runners.jpg) no-repeat center;
+    background: url(../img/runners.jpg) no-repeat center;
     background-size: cover;
     height: 100vh;
     position: relative;
