@@ -32,6 +32,10 @@ You can find below my solutions :
 
 - Step 10 : [Apple Watch Landing Page](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop1-step10/README.md)
 
+### Loop 2 :
+
+- Step 1 : [Washing Machine Program](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop2-step1/README.md)
+
 ## Elements Challenges
 
 Theses are **interactive widgets** challenges, it is more based on **Javascript**.
