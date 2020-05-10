@@ -67,3 +67,5 @@ You can find below the lives versions of my solutions :
 ### Loop 2 :
 
 - Step 1 : [Code Verification](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop2-step1/README.md)
+
+- Step 2 : [Multiselect](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop2-step2/README.md)
