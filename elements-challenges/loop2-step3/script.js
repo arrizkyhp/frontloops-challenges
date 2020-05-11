@@ -3,8 +3,6 @@ const cardsContainer = document.querySelector(".cards-container");
 const cards = document.querySelectorAll(".card");
 var size = i = 0, j = 5;
 
-window.onresize = () => {console.log(cardsContainer.offsetWidth)};
-
 buttons.forEach(b => b.addEventListener("click", () => {
     if (cardsContainer.offsetWidth < 350) {
         j = 7;
