@@ -130,14 +130,14 @@ textarea {
 @media screen and (max-width: 540px) {
     .container {
         width: 100%;
-        height: 100vh;
+        min-height: 100vh;
         position: relative;
         top: 0;
         padding: 3.7em 1.75em 2.2em 1.75em;
     }
 
     .title, .bottom-btns {
-        padding: 0 1.95em;
+        padding: 0 .4em;
     }
 
     .form-container {
