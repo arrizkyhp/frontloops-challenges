@@ -36,6 +36,8 @@ You can find below my solutions :
 
 - Step 1 : [Washing Machine Program](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop2-step1/README.md)
 
+- Step 2 : [Account Settings Form](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop2-step2/README.md)
+
 ## Elements Challenges
 
 Theses are **interactive widgets** challenges, it is more based on **Javascript**.
