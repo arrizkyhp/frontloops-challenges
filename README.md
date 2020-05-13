@@ -38,6 +38,8 @@ You can find below my solutions :
 
 - Step 2 : [Account Settings Form](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop2-step2/README.md)
 
+- Step 3 [Files Manager](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop2-step3/README.md)
+
 ## Elements Challenges
 
 Theses are **interactive widgets** challenges, it is more based on **Javascript**.

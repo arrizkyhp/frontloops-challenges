@@ -1,0 +1,149 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #B885E6, #8689EF);
+    padding: 0 1.2rem;
+}
+
+ul {
+    padding-left: 1.55rem;
+}
+
+li {
+    list-style: none;
+    position: relative;
+    padding-left: .7rem;
+    cursor: pointer;
+}
+
+li::before {
+    position: absolute;
+    top: -45%;
+    left: -1.9rem;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+/* MAIN */
+
+.container {
+    box-shadow: 4px 4px 25px rgba(0,0,0,.2);
+    color: #fff;
+    background: linear-gradient(145deg, #BC7EDA, #8F77CE);
+    max-width: 340px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.category {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 1.2rem;
+    position: relative;
+}
+
+.category li::before {
+    transform: scale(.65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo {
+    padding-top: 2.7rem;
+}
+
+.photo img {
+    cursor: pointer;
+}
+
+.photo li::before {
+    content: url(img/photo.svg);
+}
+
+.files li {
+    z-index: 10;
+}
+
+.files li::before {
+    content: url(img/folder.svg);
+    padding-top: 3px;
+}
+
+.files::after, .photo::after, .items::after, .items::before, .items li::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    width: .1rem;
+    background: #fff;
+}
+
+.photo::after {
+    height: 50%;
+}
+
+.files::after {
+    height: 100%;
+}
+
+.items {
+    background: #5F5280;
+    padding: .85rem 1.2rem;
+    position: relative;
+}
+
+.items li {
+    margin: 1.1rem 0;
+    color: #e0e0e0;
+    transition: .1s;
+    position: relative;
+}
+
+.items li:hover {
+    color: #fff;
+}
+
+.items li::before {
+    content: "";
+    position: absolute;
+    top: 30%;
+    left: -1rem;
+    width: 8px;
+    height: 8px;
+    cursor: default;
+}
+
+.items::after {
+    height: 1.8rem;
+    background: #AFA9C0;
+}
+
+.items::before {
+    bottom: 0;
+    top: unset;
+    height: 1.8rem;
+    background: #AFA9C0;
+}
+
+.items li:nth-child(2)::after, .items li:nth-child(3)::after {
+    top: -1.05rem;
+    left: -.79rem;
+    height: 1rem;
+    background: #AFA9C0;
+}
