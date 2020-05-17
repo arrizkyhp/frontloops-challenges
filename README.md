@@ -75,3 +75,5 @@ You can find below the lives versions of my solutions :
 - Step 2 : [Multiselect](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop2-step2/README.md)
 
 - Step 3 : [Card Slider](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop2-step3/README.md)
+
+- Step 4 : [Form Validation](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop2-step4/README.md)
