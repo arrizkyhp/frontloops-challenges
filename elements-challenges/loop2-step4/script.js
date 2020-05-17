@@ -1,6 +1,5 @@
 const inputs = document.querySelectorAll(".form-input");
 const submitBtn = document.querySelector(".submit-btn");
-i = 0;
 
 function createError(input, msg) {
     var errorElement = document.createElement("p");
