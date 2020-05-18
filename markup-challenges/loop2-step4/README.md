@@ -1,6 +1,6 @@
 # Frontloops Challenges (Markup)
 
-Loop 2 Step 4 : Presentation Card
+Loop 2 Step 4 : Travel Card
 
 ![preview image](./design/preview.png "Click below for live demo")
 
