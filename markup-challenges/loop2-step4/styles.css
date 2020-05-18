@@ -1,0 +1,160 @@
+/* RULES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 17px;
+}
+
+/* MAIN */
+
+body {
+    min-height: 100vh;
+    background: #4A4B72;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* NAV */
+
+nav ul {
+    display: flex;
+}
+
+.nav-box {
+    list-style: none;
+    background: #353648;
+    width: 80px;
+    height: 65px;
+    margin: 0 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .1s;
+}
+
+.nav-box img {
+    opacity: .65;
+    width: 33%;
+}
+
+.nav-box:nth-child(3) {
+    background: #212121;
+    transform: scale(1.27);
+    margin: 0;
+    box-shadow: 0 0 10px rgba(0,0,0,.4);
+}
+
+.nav-box:nth-child(3) img {
+    opacity: 1;
+}
+
+.nav-box:not(:nth-child(3)):hover {
+    background: #2C2D38;
+}
+
+/* CARD */
+
+.card {
+    margin-top: 30px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 12px 15px rgba(0,0,0,.23);
+    overflow: hidden;
+    max-width: 330px;
+    width: 100%;
+}
+
+.top {
+    height: 163px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: url(img/food.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 1.25rem;
+    position: relative;
+    color: #fff;
+}
+
+.top::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: .3;
+    width: 100%;
+    height: 100%;
+}
+
+.top h1, p {
+    z-index: 10;
+}
+
+.top h1 {
+    font-size: 1.65rem;
+}
+
+.top p {
+    font-size: .8rem;
+}
+
+.top img {
+    width: 19px;
+    position: relative;
+    top: 4px;
+    left: -2px;
+}
+
+.food {
+    padding: 1.35rem;
+    font-weight: 500;
+    color: #999;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.food p:last-child {
+    transition: .1s;
+}
+
+.food:hover p:last-child {
+    transform: scale(1.25);
+    color: #000;
+}
+
+.food:not(:last-child) {
+    border-bottom: 2px solid #ddd;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 440px) {
+    .card {
+        margin-top: 25px;
+    }
+
+    nav {
+        transform: scale(.8);
+    }
+}

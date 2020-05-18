@@ -40,6 +40,8 @@ You can find below my solutions :
 
 - Step 3 : [Files Manager](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop2-step3/README.md)
 
+- Step 4 : [Presentation Card](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop2-step4/README.md)
+
 ## Elements Challenges
 
 Theses are **interactive widgets** challenges, it is more based on **Javascript**.
