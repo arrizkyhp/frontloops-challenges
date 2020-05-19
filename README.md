@@ -80,4 +80,4 @@ You can find below the lives versions of my solutions :
 
 - Step 4 : [Form Validation](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop2-step4/README.md)
 
-- Step 5 : [Color Picker](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop2-step5/README.md)
+- Step 5 : [Color Picker](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop2-step5/README.md)
