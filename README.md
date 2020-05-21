@@ -42,6 +42,8 @@ You can find below my solutions :
 
 - Step 4 : [Travel Card](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop2-step4/README.md)
 
+- Step 5 : [Article Title Page](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop2-step5/README.md)
+
 ## Elements Challenges
 
 Theses are **interactive widgets** challenges, it is more based on **Javascript**.

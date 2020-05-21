@@ -1,0 +1,153 @@
+/* RULES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 18px;
+}
+
+h3, h2 {
+    font-weight: 500;
+}
+
+/* MAIN */
+
+body {
+    min-height: 100vh;
+    background: url(img/background.jpg) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+}
+
+nav, nav div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    padding: 1.1rem 1.4rem;
+    justify-content: space-between;
+}
+
+nav div {
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+nav div img {
+    width: 33px;
+    margin: 3px 0;
+}
+
+/* RIGHT SIDE */
+
+.overlay-side {
+    padding: 1.5rem 1.5rem;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+}
+
+.overlay-side::before {
+    content: "";
+    background: rgba(231, 190, 25, 0.8);
+    position: absolute;
+    top: 0;
+    right: -65vw;
+    width: 100vw;
+    height: 100vh;
+    transform: skewX(-12deg);
+    z-index: -1;
+}
+
+.read h3 {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.read span img {
+    margin-left: .6rem;
+    width: 27px;
+    position: relative;
+    top: .34rem;
+}
+
+.main-container {
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+main h1 {
+    font-size: 7rem;
+    font-weight: 400;
+}
+
+main h2 {
+    font-size: 3rem;
+    width: 30vw;
+    margin-top: -5px;
+}
+
+.views h3 {
+    cursor: pointer;
+    margin-top: 20vh;
+}
+
+.views span img {
+    margin-right: .6rem;
+    position: relative;
+    top: .31rem;
+    width: 26px;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 780px) {
+    .overlay-side {
+        position: absolute;
+        top: 0;
+        height: 100vh;
+    }
+
+    .overlay-side::before {
+        top: 5vh;
+        right: -45vh;
+        height: 95vh;
+        width: 95vh;
+        transform: skewY(0) rotate(45deg);
+    }
+
+    .main-container {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 70%;
+    }
+
+    main h1 {
+        font-size: 6rem;
+    }
+
+    main h2 {
+        width: 100%;
+        font-size: 2.3rem;
+    }
+    
+    .views h3 {
+        margin-top: 0;
+    }
+}
