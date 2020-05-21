@@ -9,6 +9,7 @@
 
 html {
     font-size: 18px;
+    overflow: hidden;
 }
 
 h3, h2 {
@@ -18,7 +19,7 @@ h3, h2 {
 /* MAIN */
 
 body {
-    min-height: 100vh;
+    height: 100vh;
     background: url(img/background.jpg) no-repeat center center;
     background-size: cover;
     display: flex;
