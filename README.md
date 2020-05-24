@@ -87,3 +87,5 @@ You can find below the lives versions of my solutions :
 - Step 5 : [Color Picker](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop2-step5/README.md)
 
 - Step 6 : [Boiling Dots](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop2-step6/README.md)
+
+- Step 7 : [Custom Scrollbar](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop2-step7/README.md)

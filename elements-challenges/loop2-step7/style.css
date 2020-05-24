@@ -1,0 +1,63 @@
+/* RULES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* MAIN */
+
+body {
+    background: #FC5C65;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 25px;
+}
+
+.container {
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 15px rgba(0,0,0,.1);
+    background: #fff;
+    max-width: 500px;
+    width: 100%;
+    height: 500px;
+    padding: 16px 40px 16px 29px;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.box {
+    background: #F0F0F0;
+    width: 100%;
+    height: 120px;
+    border-radius: 5px;
+    margin: 14px 0;
+}
+
+/* SCROLL BAR */
+
+.simplebar {
+    margin: 20px;
+}
+
+.simplebar-scrollbar::before {
+    background-color: #888;
+    width: 100%;
+}
+
+.simplebar-track.simplebar-vertical {
+    background: #E5E5E5;
+    border-radius: 7px;
+    width: 7px;
+    margin: 15px 7px;
+}
+
+.simplebar-track.simplebar-vertical .simplebar-scrollbar:before {
+    left: 0;
+}
