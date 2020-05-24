@@ -1,0 +1,147 @@
+/* RULES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+:root {
+    --orange: #DE6E46;
+    --purple: #AE5989;
+}
+
+/* MAIN */
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #78ACCD;
+}
+
+.container {
+    background: #fff;
+    box-shadow: 10px 10px 15px rgba(0,0,0,.05);
+}
+
+.top, .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top {
+    padding: 1.5rem 1.4rem;
+    border-bottom: 2px solid #eee;
+}
+
+.top p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.calendar {
+    display: grid;
+    padding: 1.5rem 2rem 2.25rem 2rem;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+    gap: 1.5rem;
+}
+
+.week {
+    text-transform: uppercase;
+    color: #888;
+    font-weight: 700;
+}
+
+.day {
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.day.special::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.day.pre-month {
+    color: #ccc;
+}
+
+.day.fill {
+    color: #fff;
+}
+
+.day.fill::before {
+    background: var(--orange);
+}
+
+.day.border-orange::before {
+    border: 2px solid var(--orange);
+    width: 2.2rem;
+    height: 2.2rem;
+}
+
+.day.border-purple::before {
+    border: 2px solid var(--purple);
+    width: 2.2rem;
+    height: 2.2rem;
+}
+
+.day.border::after {
+    position: absolute;
+    top: -75%;
+    right: -75%;
+    width: 1.1rem;
+    height: 1.1rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.1rem;
+    color: #fff;
+    font-size: .72rem;
+}
+
+.calendar .day.border-orange::after {
+    content: "6";
+    background: var(--orange);
+}
+
+.calendar .day.border-purple::after {
+    content: "5";
+    background: var(--purple);
+}
+
+.bottom {
+    padding: 2rem 1.4rem;
+    border-top: 2px solid #eee;
+}
+
+.bottom .day {
+    margin-right: 1.1rem;
+}
+
+.bottom small:not(:nth-child(even)) {
+    font-size: .94rem;
+    font-weight: 500;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 420px) {
+    .container {
+        transform: scale(.9);
+    }
+}
