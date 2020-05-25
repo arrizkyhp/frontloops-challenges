@@ -14,13 +14,16 @@ body {
 }
 
 .card__container {
-    background: #fff url(img/bicycle.png);
+    /* background: #fff url(img/bicycle.png);
     background-size: 96%;
     background-repeat: no-repeat;
-    background-position: center 180px;
+    background-position: center 180px; */
+    background: #fff;
     border-radius: 5px;
     box-shadow: 7px 7px 25px rgba(0,0,0,0.25);
     padding: 45px 60px 165px 60px;
+    position: relative;
+    overflow: hidden;
 }
 
 .card__header {
@@ -96,24 +99,35 @@ small {
     top: -1px;
 }
 
+.bicycle {
+    width: 96%;
+    position: absolute;
+    bottom: -33%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 @media screen and (max-width: 620px) {
     .card__container {
         padding: 45px 40px 125px 40px; ;
-        background-position: center 250px;
-        width: 80%;
+        width: 90%;
     }
     
     small {
         padding-right: 0;
-
+        
     }
-
+    
     .profile__container {
         cursor: initial;
     }
-
+    
     .border__hover {
         display: none;
+    }
+
+    .bicycle {
+        bottom: -18%;
     }
 }
 
