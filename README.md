@@ -46,6 +46,8 @@ You can find below my solutions :
 
 - Step 6 : [Calendar](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop2-step6/README.md)
 
+- Step 7 : [Press Page](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop2-step7/README.md)
+
 ## Elements Challenges
 
 Theses are **interactive widgets** challenges, it is more based on **Javascript**.
