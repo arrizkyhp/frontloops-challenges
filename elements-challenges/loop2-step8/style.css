@@ -102,17 +102,26 @@ body {
 }
 
 .progress-bar {
-    background: rgba(255,255,255,.2);
+    background: rgba(255,255,255, 0.2);
     cursor: pointer;
     height: 6px;
     flex-grow: 1;
     margin-left: 1.1rem;
 }
 
+.progress-bar:hover {
+    background: rgba(255,255,255, 0.25);
+}
+
+.progress-bar:hover .bar {
+    opacity: .8;
+}
+
 .bar {
     width: 0;
     height: 100%;
-    background: rgba(255,255,255,.5);
+    background: #fff;
+    opacity: .5;
 }
 
 /* MOBILE */
