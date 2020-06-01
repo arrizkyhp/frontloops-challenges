@@ -48,6 +48,8 @@ You can find below my solutions :
 
 - Step 7 : [Press Page](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop2-step7/README.md)
 
+- Step 8 : [Mobile App Mockup](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop2-step8/README.md)
+
 ## Elements Challenges
 
 Theses are **interactive widgets** challenges, it is more based on **Javascript**.
