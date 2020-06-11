@@ -99,3 +99,5 @@ You can find below the lives versions of my solutions :
 - Step 8 : [Custom Video Player](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop2-step8/README.md)
 
 - Step 9 : [Input Slider](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop2-step9/README.md)
+
+- Step 10 : [Accordion](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop2-step10/README.md)
