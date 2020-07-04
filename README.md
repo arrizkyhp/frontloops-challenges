@@ -101,3 +101,7 @@ You can find below the lives versions of my solutions :
 - Step 9 : [Input Slider](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop2-step9/README.md)
 
 - Step 10 : [Accordion](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop2-step10/README.md)
+
+### Loop 3 :
+
+- Step 1 [To-do List with Local Storage](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop3-step1/README.md)
