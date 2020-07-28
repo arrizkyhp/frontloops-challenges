@@ -52,6 +52,8 @@ You can find below my solutions :
 
 - Step 9 : [Navigation App](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop2-step9/README.md)
 
+- Step 10 : [LinkedIn Website](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop2-step10/README.md)
+
 ## Elements Challenges
 
 Theses are **interactive widgets** challenges, it is more based on **Javascript**.
