@@ -111,3 +111,5 @@ You can find below the lives versions of my solutions :
 - Step 2 [Moving Dot](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop3-step2/README.md)
 
 - Step 3 [Calendar Week Changer](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop3-step3/README.md)
+
+- Step 4 [Toast Event](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop3-step4/README.md)
