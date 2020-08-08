@@ -2,9 +2,19 @@ const btn = document.querySelector(".load-btn"), ctn = document.querySelector(".
 
 var p = 1, heightAdd = 0;
 
+if (window.getComputedStyle(document.body).getPropertyValue("padding-top") >= "200px") {
+    var x = 10;
+} else {
+    var x = 5;
+}
+
 function animation() {
     setTimeout(() => {
-        ctn.style.height = `${heightAdd / 2}px`;
+        if (window.getComputedStyle(document.body).getPropertyValue("padding-top") >= "200px") {
+            ctn.style.height = `${heightAdd / 2}px`;
+        } else {
+            ctn.style.height = `${heightAdd}px`;
+        }
     }, 1);
 }
 
@@ -24,7 +34,7 @@ function loadCards() {
     .then(response => response.json())
     .then(data => {
         try {
-            for (let i = 0; i < 10; i++) {
+            for (let i = 0; i < x; i++) {
                 createCard(data.results[i].name);
             }
             animation();
