@@ -54,6 +54,10 @@ You can find below my solutions :
 
 - Step 10 : [LinkedIn Website](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop2-step10/README.md)
 
+### Loop 3 :
+
+- Step 1 : [Product Page](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop3-step1/README.md)
+
 ## Elements Challenges
 
 Theses are **interactive widgets** challenges, it is more based on **Javascript**.
