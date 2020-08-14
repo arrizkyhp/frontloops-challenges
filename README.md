@@ -1,10 +1,10 @@
 # Frontloops Frontend Challenges
 
-![](logo.png)
-
 Frontloops provide **frontend development** challenges to improve your skills in HTML, CSS and Javascript.
 
 For more informations check [Frontloops website](https://frontloops.io/)
+
+![](logo.png)
 
 ## Markup Challenges ✏️
 
