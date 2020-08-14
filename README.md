@@ -1,6 +1,6 @@
 # Frontloops Frontend Challenges
 
-![](logo.png)
+![](logo.jpg)
 
 Frontloops provide **frontend development** challenges to improve your skills in HTML, CSS and Javascript.
 
