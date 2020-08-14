@@ -1,10 +1,12 @@
 # Frontloops Frontend Challenges
 
+![](logo.png)
+
 Frontloops provide **frontend development** challenges to improve your skills in HTML, CSS and Javascript.
 
 For more informations check [Frontloops website](https://frontloops.io/)
 
-## Markup Challenges
+## Markup Challenges ✏️
 
 Theses are **web interface challenges**, it is more based on **HTML** and **CSS**.
 
@@ -58,7 +60,7 @@ You can find below my solutions :
 
 - Step 1 : [Product Page](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop3-step1/)
 
-## Elements Challenges
+## Elements Challenges ⛏️
 
 Theses are **interactive widgets** challenges, it is more based on **Javascript**.
 
