@@ -2,9 +2,9 @@
 
 Frontloops provide **frontend development** challenges to improve your skills in HTML, CSS and Javascript.
 
-For more informations check [Frontloops website](https://frontloops.io/)
-
 ![](logo.png)
+
+For more informations check [Frontloops website](https://frontloops.io/)
 
 ## Markup Challenges ✏️
 
