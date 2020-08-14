@@ -119,3 +119,5 @@ You can find below the lives versions of my solutions :
 - Step 4 : [Toast Event](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop3-step4/)
 
 - Step 5 : [Paging Component](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop3-step5/)
+
+- Step 6 : [Onboarding](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop3-step6/)
