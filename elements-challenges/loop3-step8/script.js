@@ -30,7 +30,7 @@ function deleteSuggest(name) {
 
 input.addEventListener("input", function() {
     let v = this.value.toLowerCase();
-    for (let i = 0; i < 1048; i++) {
+    for (let i = 0; i < pokemons.length; i++) {
         if (!v) {
             suggestBox.innerHTML = "";
         } else if (pokemons[i].startsWith(v) && !document.getElementById(pokemons[i])) {
