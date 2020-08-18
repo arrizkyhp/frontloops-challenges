@@ -1,6 +1,6 @@
 # Frontloops Challenges (Elements)
 
-Loop 3 Step 9 : Textarea highlight
+Loop 3 Step 9 : Textarea Highlight
 
 ![preview image](./design/preview.png "Click below for live demo")
 
