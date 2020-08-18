@@ -127,3 +127,5 @@ You can find below the lives versions of my solutions :
 - Step 7 : [Ripple Cursor](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop3-step7/)
 
 - Step 8 : [Suggest](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop3-step8/)
+
+- Step 9 : [Textarea highlight](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop3-step9/)
