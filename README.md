@@ -129,3 +129,5 @@ You can find below the lives versions of my solutions :
 - Step 8 : [Suggest](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop3-step8/)
 
 - Step 9 : [Textarea Highlight](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop3-step9/)
+
+- Step 10 : [Image Magnifier](https://github.com/zathio/frontloops-challenges/tree/master/elements-challenges/loop3-step10/)
