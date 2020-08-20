@@ -62,6 +62,8 @@ You can find below my solutions :
 
 - Step 2 : [Gallery Overview](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop3-step2/)
 
+- Step 3 : [Movie Cards](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop3-step3/)
+
 ## Elements Challenges ⛏️
 
 Theses are **interactive widgets** challenges, it is more based on **Javascript**.
