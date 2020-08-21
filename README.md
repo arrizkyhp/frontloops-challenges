@@ -66,6 +66,8 @@ You can find below my solutions :
 
 - Step 4 : [Music Card](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop3-step4/)
 
+- Step 5 : [Charts](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop3-step5/)
+
 ## Elements Challenges ⛏️
 
 Theses are **interactive widgets** challenges, it is more based on **Javascript**.
