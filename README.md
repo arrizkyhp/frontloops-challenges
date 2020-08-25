@@ -68,6 +68,8 @@ You can find below my solutions :
 
 - Step 5 : [Charts](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop3-step5/)
 
+- Step 6 : [Payment Page](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop3-step6/)
+
 ## Elements Challenges ⛏️
 
 Theses are **interactive widgets** challenges, it is more based on **Javascript**.
