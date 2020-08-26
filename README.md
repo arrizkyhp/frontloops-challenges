@@ -70,6 +70,8 @@ You can find below my solutions :
 
 - Step 6 : [Payment Page](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop3-step6/)
 
+- Step 7 : [Cinema Ticket](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop3-step7/)
+
 ## Elements Challenges ⛏️
 
 Theses are **interactive widgets** challenges, it is more based on **Javascript**.
