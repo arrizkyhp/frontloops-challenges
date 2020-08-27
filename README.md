@@ -72,6 +72,8 @@ You can find below my solutions :
 
 - Step 7 : [Cinema Ticket](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop3-step7/)
 
+- Step 8 : [News App](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop3-step8/)
+
 ## Elements Challenges ⛏️
 
 Theses are **interactive widgets** challenges, it is more based on **Javascript**.
