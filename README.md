@@ -74,6 +74,8 @@ You can find below my solutions :
 
 - Step 8 : [News App](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop3-step8/)
 
+- Step 9 : [Media Homepage](https://github.com/zathio/frontloops-challenges/tree/master/markup-challenges/loop3-step9/)
+
 ## Elements Challenges ⛏️
 
 Theses are **interactive widgets** challenges, it is more based on **Javascript**.
