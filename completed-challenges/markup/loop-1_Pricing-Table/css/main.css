@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #799bce;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+}
+
+.container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fff;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  margin: 0rem 8rem;
+  padding: 2rem;
+  -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.container .card {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 3rem;
+  background: #fff;
+  cursor: pointer;
+}
+
+.container .card:hover {
+  background: rgba(121, 155, 206, 0.2);
+}
+
+.container .card img {
+  width: 80px;
+  margin: 1rem auto;
+}
+
+.container .card h3 {
+  color: #4d67ce;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-weight: 700;
+  margin: 2rem 0 0.5rem 0;
+}
+
+.container .card p {
+  color: #a7acac;
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.container .card h4 {
+  color: #4d67ce;
+  font-weight: 500;
+  font-size: 1.9rem;
+  padding: 0.5rem 0;
+}
+
+.container .card h4 .subtext {
+  font-size: 0.95rem;
+}
+
+.container .card h4 sup {
+  font-size: 0.95rem;
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    margin-top: 2rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+  .container .card {
+    margin-top: 2rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */
