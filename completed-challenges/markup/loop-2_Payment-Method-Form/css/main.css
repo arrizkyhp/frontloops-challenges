@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: url("../img/background.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  background: #fff;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  border-radius: 5px;
+  overflow: hidden;
+  -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container .step-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+}
+
+.container .step-dots .dot {
+  margin-right: 13px;
+  width: 8px;
+  height: 8px;
+  background: #d7d7d7;
+  border-radius: 50%;
+}
+
+.container .step-dots .dot.active {
+  background: #9a9a9a;
+}
+
+.container .step-dots.mobile {
+  visibility: hidden;
+}
+
+.container h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 1.8rem;
+  margin: 30px 110px;
+}
+
+.container .payment-method {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 2px solid rgba(0, 0, 0, 0.12);
+  padding: 20px 40px;
+  cursor: pointer;
+  position: relative;
+}
+
+.container .payment-method:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.container .payment-method.active h4 {
+  color: #2b2b2d;
+}
+
+.container .payment-method img {
+  width: 60px;
+  margin-right: 30px;
+}
+
+.container .payment-method h4 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #aaaaaa;
+}
+
+.container .payment-method .check {
+  height: 30px;
+  position: absolute;
+  right: 0;
+  display: none;
+}
+
+.container .next {
+  text-decoration: none;
+}
+
+.container .next .button {
+  background: #5081d7;
+  position: relative;
+  text-align: center;
+}
+
+.container .next .button p {
+  color: #fff;
+  padding: 28px;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.container .next .button p::after {
+  position: absolute;
+  content: url(../img/arrow.svg);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  margin-left: 5px;
+}
+
+.container .next .button:hover {
+  background: #3572da;
+}
+
+.container .next .button:active {
+  position: relative;
+  top: 3px;
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+  }
+  .container {
+    width: 100%;
+    max-height: 100%;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .container h1 {
+    margin: 30px 0;
+  }
+  .container .step-dots.mobile {
+    visibility: visible;
+    margin-bottom: 100px;
+  }
+  .container .step-dots.desktop {
+    visibility: hidden;
+  }
+  .container .next {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
