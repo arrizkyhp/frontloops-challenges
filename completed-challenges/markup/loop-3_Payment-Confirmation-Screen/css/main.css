@@ -1,1 +1,136 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: #16a085;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  background-color: #fff;
+  padding: 50px 70px;
+  border-radius: 8px;
+  -webkit-box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  position: relative;
+}
+
+.container header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container header h1 {
+  font-size: 1.8rem;
+}
+
+.container header .round img {
+  position: relative;
+  border: 1px solid #aaaabd;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.container header .round img:hover {
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.container header .round img:active {
+  background-color: rgba(170, 170, 189, 0.3);
+}
+
+.container .order-info {
+  color: #aaaabd;
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.container .order-detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 24px;
+  color: #555555;
+}
+
+.container .order-detail.total {
+  margin-bottom: 150px;
+}
+
+.container .order-detail.total h3 {
+  color: #555555;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.container .order-detail h3 {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.container .order-detail p {
+  color: #000000;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.container .image-footer {
+  width: 600px;
+  position: absolute;
+  top: 13rem;
+  left: 1rem;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    background-color: #fff;
+  }
+  .container {
+    height: 100vh;
+  }
+  .container header {
+    margin-top: 30px;
+  }
+  .container .image-footer {
+    width: 500px;
+    top: 22rem;
+    left: -3rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */
