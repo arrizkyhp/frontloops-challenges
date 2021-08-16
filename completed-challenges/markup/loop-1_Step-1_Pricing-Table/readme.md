@@ -1,8 +1,12 @@
 ## Style Guide
 
+### ✅ Done [Live demo](https://arrizkyhp.github.io/frontloops-challenges/completed-challenges/markup/loop-1_Step-1_Pricing-Table/)
+
+---
+
 ### 🎯 Design Reference
 
-[![reference](https://raw.githubusercontent.com/arrizkyhp/frontloops-challenges/master/completed-challenges/markup/loop-1_Pricing-Table/preview.png "reference")](https://raw.githubusercontent.com/arrizkyhp/frontloops-challenges/master/completed-challenges/markup/loop-1_Pricing-Table/preview.png "reference")
+![preview image](./design/preview.png "Design Goal")
 
 #### 🎨Color
 
