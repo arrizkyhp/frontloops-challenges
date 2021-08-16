@@ -1,0 +1,227 @@
+// Font
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+// Value
+$blueColor: #6a96d8;
+$lightBlueColor: #e6edf6;
+$darkenLightBlueColor: darken(
+  $color: $lightBlueColor,
+  $amount: 4%,
+);
+$lightColor: #f2f2f2;
+$redColor: #ffc2c1;
+
+$dark: #000000;
+$greyColor: #999999;
+$lightGreyColor: #cccccc;
+
+// Mixin
+@mixin thin-line() {
+  content: " ";
+  width: 42%;
+  height: 1px;
+  background: $lightGreyColor;
+  position: absolute;
+  top: 8px;
+}
+
+// Style
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: rgb(138, 166, 191);
+  background: linear-gradient(0deg, rgba(138, 166, 191, 1) 16%, rgba(212, 222, 231, 1) 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: #fff;
+  min-width: 480px;
+  //   min-height: 100vh;
+  //   max-height: 100vh;
+
+  header {
+    background: $blueColor;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+
+    h1 {
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #fff;
+      position: relative;
+      padding-left: 1.3rem;
+
+      &::before {
+        content: " ";
+        width: 7px;
+        height: 7px;
+        background: #fff;
+        border-radius: 50%;
+        position: absolute;
+        left: 0;
+        top: 6px;
+      }
+    }
+    img {
+      opacity: 0.8;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+
+  main {
+    padding: 20px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+
+    .date {
+      margin-bottom: 2.5rem;
+      p {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: $lightGreyColor;
+        position: relative;
+
+        &::before {
+          @include thin-line();
+          left: 0;
+        }
+
+        &::after {
+          @include thin-line();
+          right: 0;
+        }
+      }
+    }
+
+    .chat-area {
+      .chat-time {
+        font-size: 0.85rem;
+        color: $greyColor;
+        margin-bottom: 0.2rem;
+      }
+
+      .chat-box {
+        border-radius: 3px;
+        padding: 10px;
+        max-width: 300px;
+        margin-bottom: 40px;
+      }
+
+      &.send {
+        align-self: flex-end;
+        cursor: pointer;
+
+        .chat-time {
+          text-align: right;
+        }
+
+        .chat-box {
+          background: $lightBlueColor;
+          position: relative;
+
+          &:after {
+            content: " ";
+            position: absolute;
+            top: 0;
+            right: -8px;
+            border-style: solid;
+            border-width: 10px 10px 0 0;
+            border-color: $lightBlueColor transparent transparent transparent;
+          }
+
+          &:hover {
+            background-color: $darkenLightBlueColor;
+
+            &:after {
+              border-color: $darkenLightBlueColor transparent transparent transparent;
+            }
+          }
+        }
+      }
+
+      &.received {
+        align-self: flex-start;
+
+        .chat-box {
+          background: $lightColor;
+          position: relative;
+
+          &::before {
+            content: " ";
+            position: absolute;
+            top: 0;
+            left: -8px;
+            border-style: solid;
+            border-width: 0 10px 10px 0;
+            border-color: transparent $lightColor transparent transparent;
+          }
+        }
+      }
+
+      &.block {
+        align-self: flex-start;
+
+        .chat-box {
+          background: $redColor;
+        }
+      }
+    }
+    .chat-input {
+      border-top: 1px solid $greyColor;
+      padding-top: 0.5rem;
+      padding-bottom: 1rem;
+      width: 100%;
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      input[type="text"] {
+        border: none;
+        outline: none;
+        width: 80%;
+        font-size: 1rem;
+        padding: 10px 0;
+      }
+
+      a {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $blueColor;
+        font-size: 1rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+
+        &:hover {
+          color: lighten($color: $blueColor, $amount: 10%);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    min-width: 300px;
+  }
+}

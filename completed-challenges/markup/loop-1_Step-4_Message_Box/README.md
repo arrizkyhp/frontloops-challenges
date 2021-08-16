@@ -6,6 +6,7 @@
 
 #### 🎨Color
 
+- <span style="color:#8aa6bf">**Background Color**</span> `#8aa6bf`
 - <span style="color:#6a96d8">**Blue Color**</span> `#6a96d8`
 - <span style="color:#e6edf6">**Light Blue Color**</span> `#e6edf6`
 - <span style="color:#f2f2f2">**Light Grey Color**</span> `#f2f2f2`
