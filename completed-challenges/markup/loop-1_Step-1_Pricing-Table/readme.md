@@ -1,6 +1,6 @@
 ## Style Guide
 
-### ✅ Done [Live demo](https://arrizkyhp.github.io/frontloops-challenges/completed-challenges/markup/loop-1_Step-1_Pricing-Table/)
+### ✅ Done | [Live demo](https://arrizkyhp.github.io/frontloops-challenges/completed-challenges/markup/loop-1_Step-1_Pricing-Table/)
 
 ---
 

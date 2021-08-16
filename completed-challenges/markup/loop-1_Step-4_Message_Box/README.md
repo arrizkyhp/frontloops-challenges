@@ -1,5 +1,9 @@
 ## Style Guide
 
+### ✅ Done | [Live demo](https://arrizkyhp.github.io/frontloops-challenges/completed-challenges/markup/loop-1_Step-4_Message_Box/)
+
+---
+
 ### 🎯 Design Goal
 
 ![preview image](./design/preview.png "Design Goal")
